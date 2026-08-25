@@ -1,2 +1,2 @@
 # weather
-[🌐 Live Demo](YOUR-GITHUB-PAGES-LINK)
+https://akshathasr809-glitch.github.io/weather/

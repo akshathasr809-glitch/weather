@@ -1,10 +1,8 @@
 const apiKey = "22d241b72f730352534fe4ba04b5ffa2";
 
-function getWeather() {
-    const city = document.getElementById("city").value;
-    document.getElementById("weatherResult").innerHTML =
-        "<h2>You entered: " + city + "</h2>";
-}
+async function getWeather() {
+    const city = document.getElementById("city").value.trim();
+    const result = document.getElementById("weatherResult");
 
     if (city === "") {
         result.innerHTML = "<p>Please enter a city name.</p>";
@@ -33,3 +31,5 @@ function getWeather() {
         result.innerHTML = "<p>Unable to fetch weather data.</p>";
     }
 }
+        
+        
